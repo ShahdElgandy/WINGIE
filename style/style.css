@@ -1,0 +1,437 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* (div)خلفية الموقع */
+.back{
+  width: 100%;
+  height: 91vh;
+  background-image: url(../img/img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
+
+/* --------------------------------------------------------------------- */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/* -----------------logo------------------ */
+.logo{
+  color: rgb(27, 230, 27);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/* ------------------navb style----------------------- */
+
+  header{
+  width: 100%;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(240, 255, 255, 0.966);
+  top: 0;
+  position: fixed;
+  z-index: 999;
+}
+
+ul li{
+  list-style: none;
+}
+/* ------------------لما الموس يجي عليها تجيب لون تاني ------------------- */
+li a:hover{color: rgb(27, 230, 27);}
+/* --------------------------a style----------------------------------- */
+ul li a{
+  padding:5px 40px;
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+  font-size: 20px;
+}
+/* ----------------log in style------------------ */
+.log{
+  border: 1px solid rgb(2, 2, 2) ;
+  border-radius: 10px;
+}
+
+
+.rvn{
+width: 100%;
+height: 25vh;
+display: grid;
+place-items: center;
+position: absolute;  
+top: 450px; 
+left: 50%; 
+transform: translateX(-50%); 
+}
+/* ------------------------------------------------------- */
+.about{
+display: grid;
+place-items: center;
+position: absolute;  
+top: -250px; 
+left: 50%; 
+transform: translateX(-50%); 
+}
+.about h1{
+  font-size: 50px;
+  color: azure;
+}
+.about h2{
+  
+  font-size:30px ;
+  color: rgb(28, 250, 28) ;
+  
+}
+
+
+
+.rv{
+width: 1100px;
+padding: 40px 5px;
+position: absolute;  
+top: -100px; 
+left: 50%; 
+transform: translateX(-50%);
+  background-color:azure;
+  border:azure 4px solid;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+
+
+#from{
+  width: 150px;
+  height: 50px;
+  font-size:20px;
+  border-radius: 10px;
+}
+#from:hover{ color:rgb(27, 230, 27) ;} 
+
+
+#to{
+  width: 150px;
+  height: 50px;
+  font-size:20px;
+  border-radius: 10px;
+}
+#to:hover{ color:rgb(27, 230, 27) ;}
+
+
+#date{
+  width: 150px;
+  height: 50px;
+  font-size:20px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+#date:hover{ color:rgb(27, 230, 27) ;}
+
+
+#number{
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  border:1px  solid;
+  border-radius: 10px;
+}
+#number:hover{ color:rgb(27, 230, 27) ;} 
+
+#submit{
+  width: 150px;
+  height: 50px;
+  font-size:20px;
+  color: azure;
+  background-color:rgb(27, 230, 27) ;
+  border:rgb(27, 230, 27) solid 1px;
+  border-radius: 10px;
+  
+}
+.guide{
+  
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.options{
+  width: 400px;
+  height: 150px;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgb(210, 223, 223);
+
+}
+.options i{font-size: 30px;
+color:rgb(27, 230, 27) ;}
+.options p{
+  color: rgb(44, 44, 44);
+}
+
+.fast{
+  width: 400px;
+  height: 150px;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgb(210, 223, 223);
+
+}
+.fast i{font-size: 30px;
+color:rgb(27, 230, 27) ;}
+.fast p{
+  color: rgb(44, 44, 44);
+}
+
+.pay{
+  width: 400px;
+  height: 150px;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgb(210, 223, 223);
+
+}
+.pay i{font-size: 30px;
+color:rgb(27, 230, 27) ;}
+.pay p{
+  color: rgb(44, 44, 44);
+}
+
+.International-Flights h2{
+  font-size: 30px;
+  color:rgb(27, 230, 27) ;
+}
+
+.International{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+  
+}
+.london{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+}
+
+
+.london img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.london p{color:  rgb(27, 230, 27) ; }
+.london del{color:rgb(97, 97, 97) ;}
+
+
+.dubai{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+}
+
+
+.dubai img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.dubai p{color:  rgb(27, 230, 27) ; }
+.dubai del{color:rgb(97, 97, 97) ;}
+
+
+.kuwait{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+}
+
+
+.kuwait img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.kuwait p{color:  rgb(27, 230, 27) ; }
+.kuwait del{color:rgb(97, 97, 97) ;}
+
+
+.medina{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+}
+
+
+.medina img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.medina p{color:  rgb(27, 230, 27) ; }
+.medina del{color:rgb(97, 97, 97) ;}
+
+
+
+
+
+
+.Domestic-flights h2{
+  font-size: 30px;
+  color:rgb(27, 230, 27) ;
+}
+
+.domestic{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+  
+}
+.sharm{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+}
+
+
+.sharm img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.sharm p{color:  rgb(27, 230, 27) ; }
+.sharm del{color:rgb(97, 97, 97) ;}
+
+
+.luxor{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+}
+
+
+.luxor img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.luxor p{color:  rgb(27, 230, 27) ; }
+.luxor del{color:rgb(97, 97, 97) ;}
+
+
+
+.alex{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+}
+
+
+.alex img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.alex p{color:  rgb(27, 230, 27) ; }
+.alex del{color:rgb(97, 97, 97) ;}
+
+
+
+.hurghada{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+}
+
+
+.hurghada img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.hurghada p{color:  rgb(27, 230, 27) ; }
+.hurghada del{color:rgb(97, 97, 97) ;}
+
+
+#fsq h2{font-size: 30px;
+color:rgb(27, 230, 27);}
+.sq{
+  padding: 20px;
+  margin: 30px;
+  background-color:rgb(230, 230, 230); 
+  border-radius: 15px;
+}
+.sq h3{
+  font-size: 25px;
+}
+.sq p{
+  color:rgb(51, 51, 51) ;
+}
+
+
+#download img{
+margin: 30px 285px;
+width: 800px;
+object-fit: cover;
+}
+
+
+#content a{
+  color: white;
+}
+#content a:hover{color: rgb(27, 230, 27) ;}
+
+.footer {
+  background-color: #000; 
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.country-list li {
+  font-size: 1em;
+  padding: 5px 10px;
+  background-color: #333; /* Dark grey for contrast */
+  border-radius: 5px;
+}
+
+.footer-rights {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #aaa; /* Light grey for contrast */
+}
